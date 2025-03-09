@@ -1,0 +1,55 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+    20% {
+      color: red;
+    }
+    30% {
+      color: yellow;
+    }
+    40% {
+        color:purple;
+    }
+    50% {
+        color:cyan;
+    }
+    60% {
+        color:chartreuse;
+    }
+    70% {
+        color:deeppink;
+    }
+    80% {
+        color:black;
+    }
+    90% {
+        color:mediumslateblue;
+    }
+    100% {
+        color:brown;
+    }
+  }
+
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #6a9caf;
+    color: #e6d2d2; /* Kolor tła strony internetowej*/ 
+}
+h1:hover {
+    animation: color-change 0.3s infinite;
+    font-size: 30px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+
+ol {
+    color: chocolate;
+    background-color: blue;
+    font-size: 12px;
+}
+
+span {
+    color:aliceblue;
+    background-color: #a14545;
+}
